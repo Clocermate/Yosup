@@ -8,4 +8,18 @@
     background-size: cover;
     height: 100vh;
 }
-@media(max)
+@media(max-width:991px){
+    .box-container{
+        height: 60vh;
+    }
+}
+@media(max-width:768px){
+    .box-container{
+        height: 40vh;
+    }
+}
+@media(max-width:450px){
+    .box-container{
+        height: 20vh;
+    }
+}
