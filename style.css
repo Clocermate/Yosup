@@ -6,19 +6,24 @@
     background-image: url(images/login.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height:100vh;
 }
 @media(max-width:991px){
     .box-container{
-        height: 60vh;
+        height:60vh;
     }
 }
 @media(max-width:768px){
     .box-container{
-        height: 40vh;
+        height: 50vh;
     }
 }
-@media(max-width:450px){
+@media(max-width:400px) {
+    .box-container{
+        height: 25vh;
+    }
+}
+@media(max-width:250px){
     .box-container{
         height: 20vh;
     }
