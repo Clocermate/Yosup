@@ -1,12 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;700&display=swap');
 *{
     margin: 0;
     padding: 0;
+}
+body{
+    font-family: 'Poppins',sans-serif;
+}
+header{
+    display: flex;
+    padding: 1rem 0;
+}
+header h3{
+    margin:0 2rem;
+    margin-right: 8rem;
+    color: tomato;
+}
+header nav a{
+    margin: 0 1rem;
+}
+header .btn{
+    background-color: tomato;
+    border-radius: .5rem;
+    padding: .2rem 1rem;
+    margin-left: 6rem;
+    text-decoration: none;
+    color: white;
 }
 .box-container{
     background-image: url(images/login.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     height:100vh;
+}
+.box-container h5{
+    text-align: center;
+    padding-top: 5rem;
+}
+span{
+    font-weight: 700;
+}
+.box-container h6{
+    font-size: 2.2rem;
+    margin-top: 1rem;
+    text-align: center;
+    font-family: 'Titillium Web';
+    font-weight: 400;
+}
+.box-container .btn{
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    padding-left: 27rem;
+    color: blue;
+}
+footer{
+    text-align: center;
 }
 @media(max-width:991px){
     .box-container{
@@ -26,5 +75,10 @@
 @media(max-width:250px){
     .box-container{
         height: 20vh;
+    }
+}
+@media(max-height:600px){
+    .box-container{
+        height: 100vh;
     }
 }
