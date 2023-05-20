@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box-container{
+    background-image: url(images/home.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+@media(max)
